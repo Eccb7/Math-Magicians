@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 
-const ApiQuote = () => {
+const QuoteDisplay = () => {
   const [quote, setQuote] = useState('');
+  const [author, setAuthor] = useState('');
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState('');
 
@@ -18,11 +19,9 @@ const ApiQuote = () => {
           throw new Error('Failed to fetch quote');
         }
         const data = await response.json();
-        if (data.length > 0) {
-          setQuote(data[0].quote);
-        } else {
-          setQuote('No quote available');
-        }
+        const randomIndex = Math.floor(Math.random() * data.length);
+        setQuote(data[randomIndex].quote);
+        setAuthor(data[randomIndex].author);
         setIsLoading(false);
       } catch (error) {
         setError('Error fetching quote');
@@ -33,15 +32,25 @@ const ApiQuote = () => {
     fetchQuote();
   }, []);
 
+  let content;
   if (isLoading) {
-    return <div>Loading...</div>;
+    content = <div>Loading...</div>;
+  } else if (error) {
+    content = <div>{error}</div>;
+  } else {
+    content = (
+      <div className="quote-container">
+        <div className="quote">{quote}</div>
+        <div className="author">
+          -
+          {' '}
+          {author}
+        </div>
+      </div>
+    );
   }
 
-  if (error) {
-    return <div>{error}</div>;
-  }
-
-  return <div>{quote}</div>;
+  return <div className="centered-content">{content}</div>;
 };
 
-export default ApiQuote;
+export default QuoteDisplay;
