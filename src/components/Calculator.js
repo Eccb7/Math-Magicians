@@ -19,7 +19,13 @@ const Calculator = () => {
       <div className="calculator-container">
         <div className="math">LETS DO SOME MATH</div>
         <div className="calculator">
-          <input type="text" className="result-input w-100" value={calcData.next || calcData.total || ''} readOnly />
+          <input
+            type="text"
+            className="result-input w-100"
+            data-testid="result-input"
+            value={calcData.next || calcData.total || ''}
+            readOnly
+          />
           <div className="keypad">
             <div className="row">
               <div className="col">
