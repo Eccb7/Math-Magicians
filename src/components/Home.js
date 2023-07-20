@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Home = () => (
-  <h2>
+  <h2 className="home-h">
     WELCOME MATHEMATICIAN.
     <>
       <p className="home-p">

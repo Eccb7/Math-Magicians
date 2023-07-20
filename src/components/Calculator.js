@@ -16,8 +16,8 @@ const Calculator = () => {
 
   return (
     <>
-      <div className="math">LETS DO SOME MATH</div>
       <div className="calculator-container">
+        <div className="math">LETS DO SOME MATH</div>
         <div className="calculator">
           <input type="text" className="result-input w-100" value={calcData.next || calcData.total || ''} readOnly />
           <div className="keypad">

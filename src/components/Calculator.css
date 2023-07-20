@@ -11,6 +11,7 @@
   display: flex;
   justify-content: center;
   height: 100vh;
+  padding-top: 130px;
 }
 
 .calculator {
@@ -22,9 +23,16 @@
   background-color: #b8b6b6;
 }
 
+.home-h {
+  padding-top: 50px;
+  font-weight: bold;
+}
+
 .home-p {
   color: rgb(74, 49, 32);
-  font-style: oblique;
+  font-size: 24px;
+  padding: 10px;
+  font-weight: normal;
 }
 
 .display {
@@ -75,6 +83,7 @@
   text-align: center;
   margin: auto;
   width: 80%;
+  margin-top: 80px;
 }
 
 .quote {
