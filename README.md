@@ -16,7 +16,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  <!-- - [🚀 Live Demo](#live-demo) -->
+  - [🚀 Live Demo](#live-demo)
   - [Project Walkthrough](#walkthrough)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
@@ -58,8 +58,8 @@
 <!-- ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](https://eccb7.github.io/Portfolio2.0/)
-- [walkthrough](https://www.loom.com/share/01b07b17b1844f1a902e37006ed7e1df) -->
+- [Live Demo Link]((https://math-magicians-gray.vercel.app))
+ <-- - [walkthrough](https://www.loom.com/share/01b07b17b1844f1a902e37006ed7e1df) -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
