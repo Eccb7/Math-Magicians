@@ -55,11 +55,11 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-<!-- ## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link]((https://math-magicians-gray.vercel.app))
- <-- - [walkthrough](https://www.loom.com/share/01b07b17b1844f1a902e37006ed7e1df) -->
+- [Live Demo Link](https://math-magicians-gray.vercel.app)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
