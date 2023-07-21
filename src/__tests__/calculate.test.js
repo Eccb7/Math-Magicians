@@ -15,10 +15,10 @@ describe('test cases for symbols', () => {
 describe('test cases for numbers', () => {
   test('should return empty object if next is 0 and button name is 0', () => {
     const data = {
-      total: 0,
-      next: 0,
+      total: '0',
+      next: '0',
       operation: '+',
     };
-    expect(calculate(data, 0)).toEqual({});
+    expect(calculate(data, '0')).toEqual({});
   });
 });

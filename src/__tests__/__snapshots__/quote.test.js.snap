@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders QuoteDisplay component correctly 1`] = `
+<div>
+  <div
+    class="centered-content"
+  >
+    <div>
+      Loading...
+    </div>
+  </div>
+</div>
+`;
