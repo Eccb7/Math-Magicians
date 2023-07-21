@@ -132,6 +132,12 @@ npm start
 - Twitter: [@briton_otieno4](https://twitter.com/briton_otieno4)
 - LinkedIn: [briton-otieno-ba6591244](https://linkedin.com/in/briton-otieno-ba6591244)
 
+👤 **Lala Aicha El Vadel**
+
+- GitHub: [@Eccb7](https://github.com/leloufadel)
+- Twitter: [@briton_otieno4](https://twitter.com/leloufadel)
+- LinkedIn: [briton-otieno-ba6591244](https://www.linkedin.com/in/lala-aicha-el-vadel-8563a6202/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
